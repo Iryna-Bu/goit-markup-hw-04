@@ -352,7 +352,17 @@ ul {
 .btn-icon {
     color: var(--client-color);
 }
-  
+
+.client-link:hover, 
+.client-link:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.client-icon:hover, 
+.client-icon:focus {
+        color: var(--accent-color);
+}
 
 /* ПОРТФОЛИО */
 
