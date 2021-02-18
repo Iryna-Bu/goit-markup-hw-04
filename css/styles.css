@@ -186,6 +186,11 @@ ul {
     color: var(--primary-text-color);
 }
 
+.icon {
+    padding: 0;
+    border: none;
+}
+
 .item-title:last-child {
     margin-right: 0;
 }
@@ -328,6 +333,7 @@ ul {
     padding: 6 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border: none;
 }
 
 .site-nav-list .link:last-child {
@@ -340,6 +346,7 @@ ul {
     padding: 6 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border: none;
 }
 
 .primary-button:hover,
@@ -351,7 +358,7 @@ ul {
 .secondary-button {
     padding: 6 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
+    border: none;
     background: #F5F4FA;
     border-radius: 4px;
     color: var(--primary-text-color);
