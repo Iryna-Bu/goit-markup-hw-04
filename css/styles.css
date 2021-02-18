@@ -298,9 +298,27 @@ ul {
     line-height: 1.9;
     color:var(--secondary-text-color);
     text-decoration: none;
-    
 }
 
+.soial-links{
+
+}
+
+.link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+    /*padding-top: 16px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    background-color: #AFB1B8;*/
+    border-radius: 50%px;
+
+}
 .clients-list {
     display: flex;
     padding-right: 30px;
@@ -332,9 +350,8 @@ ul {
 }
 
 .btn-icon {
-    /*width: 70px;
-    height: 70px;*/
     color: var(--client-color);
+}
   
 
 /* ПОРТФОЛИО */
