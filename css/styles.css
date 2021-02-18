@@ -1,9 +1,10 @@
 
 :root {
     --primary-text-color: #212121;
-    --secondary-text-color:#757575;
+    --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --primary-white-color:#FFFFFF;
+    --primary-white-color: #FFFFFF;
+    --gradient-color: rgba(47, 48, 58, 0.4);
 }
   
 body {
@@ -118,7 +119,12 @@ ul {
 /*  HERO  */
 
 .hero {
+    height: 600px;
     max-width: 1600px;
+    background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: #c3c3c3;
     text-align: center;
 }
