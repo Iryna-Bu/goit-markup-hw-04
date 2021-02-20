@@ -380,7 +380,7 @@ ul {
 
 .client-icon svg:hover, 
 .client-icon svg:focus {
-    stroke: var(--accent-color);
+    /*stroke: var(--accent-color);*/
     fill: var(--accent-color);
 }
 
