@@ -307,7 +307,7 @@ ul {
     margin: 16px 32px 30px;
 }
 
-.s-link /*> .social-link > .link-icon*/ {
+.s-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,7 +316,6 @@ ul {
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    background-color: teal;
 }
 
 .sl-icon {
