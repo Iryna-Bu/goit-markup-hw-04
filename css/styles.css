@@ -304,6 +304,7 @@ ul {
 .social-links {
     display: flex;
     align-items: baseline;
+    justify-content: center;
 }
 
 .s-link /*> .social-link > .link-icon*/ {
