@@ -455,6 +455,7 @@ ul {
 .site-nav-list .link:last-child {
     margin-right: o;
 }
+
 .primary-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -518,6 +519,7 @@ ul {
 }
 
 .join-us {
+    margin-bottom: 20px;
     margin-left: 156px;
     font-weight: bold;
     font-size: 14px;
@@ -540,6 +542,54 @@ ul {
 .footer-list {
     display: flex;
     align-items: baseline;
+    padding-right: 30px;
+    padding-bottom: 94px;
+    /*background-color: tomato;*/
+}
+
+.link-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.link-item:last-child {
+    margin-right: 0;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; 
+    background-size: contain;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;  
+}
+.link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;    
+}
+
+.link-icon {
+    fill: var(--client-color);
+}
+
+.social-link:hover, 
+.social-link:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.link-icon svg:hover, 
+.link-icon svg:focus {
+    /*stroke: var(--accent-color);*/
+    fill: var(--accent-color);
 }
 
 .address {
