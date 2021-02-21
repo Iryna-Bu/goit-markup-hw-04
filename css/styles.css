@@ -545,7 +545,7 @@ ul {
 }
 
 .footer-logo {
-   padding-top: 60px;
+   padding-top: 72px;
    padding-bottom: 20px; 
 }
 
@@ -556,8 +556,7 @@ ul {
 .footer-list {
     display: flex;
     align-items: baseline;
-    padding-right: 30px;
-    padding-bottom: 94px;
+    margin-right: 70px;
     /*background-color: tomato;*/
 }
 
