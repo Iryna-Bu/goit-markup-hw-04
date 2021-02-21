@@ -310,9 +310,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 16px;
-    padding-bottom: 30px;
-    padding-right: 10px;
+    background-position: center; 
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color:
 }
 
 .sl-icon {
@@ -323,13 +326,27 @@ ul {
     border: none;
     width: 20px;
     height: 20px;
+    background-position: center;
     /*padding-top: 16px;
     padding-bottom: 30px;
     padding-right: 10px;
     background-color: #AFB1B8;
     border-radius: 50%px;*/
 
+    fill: var(--client-color); 
 }
+
+.s-link:hover, 
+.s-link:focus {
+    fill: var(--primary-white-coloror);
+}
+
+.sl-icon svg:hover, 
+.sl-icon svg:focus {
+    fill: var(--primary-white-color);
+    background-color: var(--accent-color);;
+}
+
 .clients-list {
     display: flex;
     padding-right: 30px;
