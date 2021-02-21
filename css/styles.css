@@ -327,11 +327,7 @@ ul {
     width: 20px;
     height: 20px;
     background-position: center;
-    /*padding-top: 16px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    background-color: #AFB1B8;
-    border-radius: 50%px;*/
+    border-radius: 50%;
 
     fill: var(--client-color); 
 }
