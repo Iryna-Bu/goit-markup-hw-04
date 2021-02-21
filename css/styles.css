@@ -533,6 +533,10 @@ ul {
 }
 
 .join-us {
+    display: flex;
+    margin-right: 70px;
+}
+.join-us-title {
     margin-bottom: 20px;
     margin-left: 156px;
     font-weight: bold;
@@ -556,7 +560,6 @@ ul {
 .footer-list {
     display: flex;
     align-items: baseline;
-    margin-right: 70px;
     /*background-color: tomato;*/
 }
 
