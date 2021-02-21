@@ -281,9 +281,8 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 .item-name {
-    /*margin-top: 30px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    /*justify-content: center;*/
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -291,6 +290,7 @@ ul {
     text-align: center;
 }
 .job-position {
+    margin: 0;
     text-align: center;
 }
 
@@ -303,7 +303,6 @@ ul {
 }
 .social-links {
     display: flex;
-    /*align-items: baseline;*/
     justify-content: center;
     margin: 16px 32px 30px;
 }
@@ -317,7 +316,7 @@ ul {
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    background-color:
+    background-color: teal;
 }
 
 .sl-icon {
