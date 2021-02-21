@@ -345,7 +345,7 @@ ul {
 .sl-icon svg:hover, 
 .sl-icon svg:focus {
     fill: var(--primary-white-color);
-    background-color: var(--accent-color);;
+    background-color: var(--accent-color);
 }
 
 .clients-list {
