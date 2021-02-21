@@ -306,7 +306,7 @@ ul {
     align-items: baseline;
 }
 
-.soial-link /*> .social-link > .link-icon*/ {
+.s-link /*> .social-link > .link-icon*/ {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,7 +315,7 @@ ul {
     padding-right: 10px;
 }
 
-.link-icon {
+.sl-icon {
     display: flex;
     justify-content: center;
     align-items: center;
