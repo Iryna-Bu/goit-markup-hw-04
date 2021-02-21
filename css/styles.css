@@ -566,7 +566,6 @@ ul {
     background-size: contain;
     width: 44px;
     height: 44px;
-    border: 1px solid #AFB1B8;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.1);  
 }
@@ -575,13 +574,9 @@ ul {
     justify-content: center;
     align-items: center;
     background-position: center;
-    background-color: #FFFFFF;  
-}
-
-.link-icon {
     width: 20px;
     height:20px;
-    fill: var(--primary-white-color);
+    fill: var(--primary-white-color); 
 }
 
 .social-link:hover, 
