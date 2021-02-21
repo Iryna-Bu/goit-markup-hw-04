@@ -532,8 +532,6 @@ ul {
 }
 
 .join-us {
-    display: flex;
-    align-items: baseline;
     margin-right: 70px;
 }
 .join-us-title {
