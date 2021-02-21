@@ -303,7 +303,7 @@ ul {
 }
 .social-links {
     display: flex;
-    align-items: baseline;
+    /*align-items: baseline;*/
     justify-content: center;
 }
 
@@ -453,7 +453,6 @@ ul {
 
 .buttons-list {
     display: flex;
-    /*background-color: teal;*/
     justify-content: center;
 }
 
