@@ -558,6 +558,7 @@ ul {
 .footer-list {
     display: flex;
     align-items: baseline;
+    margin-left: 70px;
     /*background-color: tomato;*/
 }
 
