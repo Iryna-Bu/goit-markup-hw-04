@@ -600,7 +600,7 @@ ul {
 
 .social-link:hover, 
 .social-link:focus {
-    fill: var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .link-icon svg:hover, 
