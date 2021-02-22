@@ -345,6 +345,7 @@ ul {
 .s-link:hover, 
 .s-link:focus {
     background-color: var(--accent-color);
+    fill: var(--primary-white-color);
 }
 
 .sl-icon:hover, 
@@ -537,7 +538,8 @@ ul {
 }
 
 .join-us {
-    margin-right: 70px;
+    display: flex;
+    align-content: flex-start;
 }
 .join-us-title {
     margin-bottom: 20px;
