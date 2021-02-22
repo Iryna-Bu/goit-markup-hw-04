@@ -557,13 +557,16 @@ ul {
     color: var(--primary-white-color);
 }
 
+.join-us {
+    min-width: 260px;
+}
+
 .footer-list {
     display: flex;
     align-items: baseline;
     margin-left: 70px;
     /*background-color: tomato;*/
 }
-
 .link-item {
     display: flex;
     justify-content: center;
