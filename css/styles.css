@@ -349,7 +349,7 @@ ul {
 
 .sl-icon:hover, 
 .sl-icon:focus {
-    fill: var(--primary-white-coloror);
+    fill: var(--primary-white-color);
 }
 
 .clients-list {
