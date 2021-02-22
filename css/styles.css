@@ -351,13 +351,14 @@ ul {
     fill: var(--currentColor); 
 }
 
-/*.sl-icon:hover, 
+.sl-icon:hover, 
 .sl-icon:focus {
-    fill: var(--currentColor);*/
+    fill: var(--currentColor);
 }
 
 .clients-list {
     display: flex;
+    justify-content: center;
     padding-right: 30px;
     padding-bottom: 94px;
     /*background-color: tomato;*/
