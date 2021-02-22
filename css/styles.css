@@ -347,8 +347,8 @@ ul {
     fill: var(--primary-white-coloror);
 }
 
-.sl-icon svg:hover, 
-.sl-icon svg:focus {
+.sl-icon:hover, 
+.sl-icon:focus {
     fill: var(--primary-white-color);
     background-color: var(--accent-color);
 }
