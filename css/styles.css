@@ -343,7 +343,7 @@ ul {
     height: 20px;
     background-position: center;
 
-    fill: var(--currentColor); 
+    fill: var(--client-color); 
 }
 
 .s-link:hover, 
@@ -355,6 +355,7 @@ ul {
 .sl-icon:hover, 
 .sl-icon:focus {
     fill: var(--currentColor);
+    background-color: var(--accent-color);
 }
 
 .clients-list {
