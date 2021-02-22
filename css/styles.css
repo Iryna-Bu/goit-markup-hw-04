@@ -354,7 +354,7 @@ ul {
 
 .sl-icon:hover, 
 .sl-icon:focus {
-    fill: var(--primary-white-color);
+    fill: var(--currentColor);
 }
 
 .clients-list {
