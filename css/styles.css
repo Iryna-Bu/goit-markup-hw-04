@@ -344,13 +344,12 @@ ul {
 
 .s-link:hover, 
 .s-link:focus {
-    fill: var(--primary-white-coloror);
+    background-color: var(--accent-color);
 }
 
 .sl-icon:hover, 
 .sl-icon:focus {
-    fill: var(--primary-white-color);
-    background-color: var(--accent-color);
+    fill: var(--primary-white-coloror);
 }
 
 .clients-list {
