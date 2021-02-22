@@ -345,7 +345,6 @@ ul {
 .s-link:hover, 
 .s-link:focus {
     background-color: var(--accent-color);
-    fill: var(--primary-white-color);
 }
 
 .sl-icon:hover, 
@@ -537,10 +536,6 @@ ul {
     align-items: baseline;
 }
 
-.join-us {
-    display: flex;
-    align-content: flex-start;
-}
 .join-us-title {
     margin-bottom: 20px;
     margin-left: 156px;
@@ -565,7 +560,7 @@ ul {
 .footer-list {
     display: flex;
     align-items: baseline;
-    margin-right: 70px;
+    margin-left: 70px;
     /*background-color: tomato;*/
 }
 
