@@ -373,23 +373,26 @@ p {
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    background-position: center; 
+    background-size: contain;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--client-color);
+    border-radius: 4px; 
 }
 
 .client:last-child {
     margin-right: 0;
 }
 
-.client-link {
+/*.client-link {
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center; 
-    background-size: contain;
-    width: 170px;
-    height: 90px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;  
+    background-size: contain;*/
 }
+
 .client-icon {
     display: flex;
     justify-content: center;
