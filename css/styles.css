@@ -351,16 +351,14 @@ p {
     fill: var(--client-color); 
 }
 
-.s-link:hover, 
-.s-link:focus {
+.sl-item:focus svg,
+.sl-item:hover svg,
+.sl-item:focus > .s-link,
+.sl-item:hover > .s-link {
+    fill: var(--primary-white-color);
     background-color: var(--accent-color);
-    fill: var(--primary-white-color); 
 }
 
-.sl-icon:hover, 
-.sl-icon:focus {
-    fill: var(--primary-white-color);
-}
 
 .clients-list {
     display: flex;
@@ -403,16 +401,14 @@ p {
     fill: var(--client-color);
 }
 
-.client-link:hover, 
-.client-link:focus {
-    border: 1px solid var(--accent-color);
+.client:focus svg,
+.client:hover svg,
+.client:focus > .client-link,
+.client:hover > .client-link {
     fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
-.client-icon svg:hover, 
-.client-icon svg:focus {
-    fill: var(--accent-color);
-}
 
 /* ПОРТФОЛИО */
 
