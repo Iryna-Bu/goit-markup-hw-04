@@ -352,7 +352,7 @@ ul {
 
 .sl-icon:hover, 
 .sl-icon:focus {
-    fill: currentColor;
+    fill: var(--primary-white-color);
 }
 
 .clients-list {
