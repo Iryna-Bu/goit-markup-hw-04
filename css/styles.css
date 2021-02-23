@@ -477,7 +477,7 @@ p {
 }
 
 .site-nav-list .link:last-child {
-    margin-right: o;
+    margin-right: 0;
 }
 
 .primary-button {
