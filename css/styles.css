@@ -6,7 +6,6 @@
     --primary-white-color: #FFFFFF;
     --gradient-color: rgba(47, 48, 58, 0.4);
     --client-color: #AFB1B8;
-    --currentColor: #ffffff;
 }
   
 body {
@@ -348,12 +347,12 @@ ul {
 .s-link:hover, 
 .s-link:focus {
     background-color: var(--accent-color);
-    fill: var(--currentColor); 
+    fill: var(--primary-white-color); 
 }
 
 .sl-icon:hover, 
 .sl-icon:focus {
-    fill: var(--currentColor);
+    fill: currentColor;
 }
 
 .clients-list {
