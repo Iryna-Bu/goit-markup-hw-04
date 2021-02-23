@@ -153,6 +153,7 @@ p {
 
 .hero-title {
     max-width: 600px;
+    padding-bottom:30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -300,7 +301,6 @@ p {
     text-align: center;
 }
 .job-position {
-    margin: 0;
     text-align: center;
 }
 
